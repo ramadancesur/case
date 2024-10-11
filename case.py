@@ -53,7 +53,7 @@ quantity_value = quantity_input.get_attribute("value")
 if quantity_value == "5":
     print("Ürün miktarı 5 olarak ayarlanmış.")
 else:
-    print(f"Ürün miktarı yanlış.")
+    print("Ürün miktarı yanlış.")
 
 #Tarayıcıyı kapat
 driver.quit()
